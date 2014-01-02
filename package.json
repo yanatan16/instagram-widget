@@ -23,7 +23,7 @@
   "dependencies": {
     "config": "~0.4.33",
     "instagram-node": "~0.1.14",
-    "koa": "~0.2.1",
+    "koa": "~0.2.0",
     "koa-logger": "~1.1.0",
     "koa-static": "~1.4.0",
     "zlib": "~1.0.5",
