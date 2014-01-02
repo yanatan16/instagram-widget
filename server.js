@@ -54,5 +54,5 @@ app.use(function *() {
   this.body = this.medias
 })
 
-app.listen(config.port)
+app.listen(process.env.port || 4000)
 console.log('widget server listening on ' + config.port)
