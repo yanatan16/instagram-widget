@@ -8,7 +8,6 @@ First fill out a `config/production.json` akin to `config/default.json`
 
 ```json
 {
-  "cache": true,
   "instagram": {
     "access_token": "YOUR AUTHENTICATED ACCESS TOKEN",
     "users": {

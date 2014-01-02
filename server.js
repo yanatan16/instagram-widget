@@ -7,13 +7,7 @@ var path = require('path')
   , instagram = require('./instagram')
   , app = koa()
 
-// app.use(require('koa-logger')())
-
-if (config.cache) {
-  app.use(require('koa-static-cache')(path.join(__dirname, 'static')))
-} else {
-  app.use(require('koa-static')(path.join(__dirname, 'static')))
-}
+app.use(require('koa-logger')())
 
 // parse query parameters
 var regex = /^\/([^\/]+)\/feed/i
