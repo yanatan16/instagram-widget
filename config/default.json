@@ -1,0 +1,9 @@
+{
+  "port": 4000,
+  "cache": false,
+  "instagram": {
+    "access_token":"",
+    "users": {
+    }
+  }
+}

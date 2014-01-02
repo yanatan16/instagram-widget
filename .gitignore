@@ -1,0 +1,6 @@
+node_modules
+npm-debug.log
+
+config/development.*
+config/production.*
+config/runtime.json
